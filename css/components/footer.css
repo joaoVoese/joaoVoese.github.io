@@ -1,0 +1,33 @@
+footer {
+    background-color: var(--light-tertiary-color);
+}
+
+footer .footerContent{
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+    
+}
+
+footer .footerContent p{
+    color: white;
+    
+}
+
+footer .footerContent .footerContact span{
+    display: block;
+    font-weight: 500;   
+}
+
+footer .footerContent ul li{
+    display: inline-block;
+}
+
+footer .footerContent div{
+    color: white;
+}
+
+footer .footerContent .footerCopyright{
+    font-size: 1.4rem;
+}
+

@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    background-color: rgb(26,26,26);
+}
+
+
+
+header .headerLeft p{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 200rem;
+}
+
+header .headerRight .headerImage{
+    position: relative;
+    line-height: 0;
+}
+
+header .headerRight .headerImage::after{
+    content: '';
+    display: block;
+    width: 100%;
+    border:1px solid var(--tartiary-color);
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+
+header .headerRight .headerImage .joao{
+    margin-left: 5rem;
+    border-radius: 2rem;
+    min-width: 20rem;
+    max-width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .headerLeft p {
+        margin: 2rem auto 4rem;
+    }
+}
